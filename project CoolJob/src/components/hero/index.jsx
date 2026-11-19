@@ -6,7 +6,9 @@ function Hero() {
       <div className="container">
         <div className={styles.subContainer}>
           <div className={styles.textBox}>
-            <h1>Один клик и работа в кармане</h1>
+            <h1>
+              <span>Один клик</span> <span>и работа в кармане</span>
+            </h1>
           </div>
           <SearchBar />
         </div>
