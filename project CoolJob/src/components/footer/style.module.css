@@ -1,0 +1,34 @@
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 56px 0 65px 0;
+  margin-top: 152px;
+  gap: 52px;
+}
+footer {
+  background-color: #52606d;
+}
+h5 {
+  font-size: 22px;
+  color: #ffffff;
+}
+li {
+  color: #d0e8ff;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-bottom: 48px;
+  border-bottom: 2px solid #465461;
+}
+.iconsBox {
+  display: flex;
+  justify-content: space-between;
+}
+.socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+}
