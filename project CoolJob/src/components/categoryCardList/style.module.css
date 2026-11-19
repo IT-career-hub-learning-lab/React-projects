@@ -1,0 +1,20 @@
+.categories {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 85px;
+  row-gap: 35px;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+.cardsList {
+  margin-top: 107px;
+}
+.categories > :last-child {
+  background-color: transparent;
+  border: 2px solid #00000040;
+  box-shadow: none;
+}
