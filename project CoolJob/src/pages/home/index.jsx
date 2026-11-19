@@ -4,6 +4,7 @@ import BrandList from "../../components/brandList/index";
 import CategoryCardList from "../../components/categoryCardList/index";
 import VacancyCardList from "../../components/vacancyCardList/index";
 import Footer from "../../components/footer/index";
+import styles from "./style.module.css";
 
 function Home() {
   return (

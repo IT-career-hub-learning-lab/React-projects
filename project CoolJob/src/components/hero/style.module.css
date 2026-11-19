@@ -1,0 +1,16 @@
+.hero {
+  margin-top: 132px;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.textBox {
+  width: 530px;
+}
+h1 {
+  font-size: 64px;
+}

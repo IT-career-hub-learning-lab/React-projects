@@ -3,17 +3,19 @@ import styles from "./style.module.css";
 function Header() {
   return (
     <header>
-      <div className={styles.container}>
-        <div className={styles.imgBox}>
-          <img src={CooljobLogo} alt="Cooljob logo"></img>
-        </div>
-        <div className={styles.linkBox}>
-          <a>Поиск работы</a>
-          <a>Поиск стартапов</a>
-        </div>
-        <div className={styles.buttonBox}>
-          <button className={styles.btnReg}>Регистрация</button>
-          <button>Вход</button>
+      <div className="container">
+        <div className={styles.subContainer}>
+          <div className={styles.imgBox}>
+            <img src={CooljobLogo} alt="Cooljob logo"></img>
+          </div>
+          <div className={styles.linkBox}>
+            <a>Поиск работы</a>
+            <a>Поиск стартапов</a>
+          </div>
+          <div className={styles.buttonBox}>
+            <button className={styles.btnReg}>Регистрация</button>
+            <button>Вход</button>
+          </div>
         </div>
       </div>
     </header>

@@ -1,9 +1,7 @@
-.container {
+.subContainer {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 100px;
 }
 .imgBox {
   width: 111px;
@@ -13,7 +11,8 @@
   align-items: center;
   justify-content: center;
   gap: 53px;
-  margin-right: 1032px;
+  margin-left: 110px;
+  margin-right: auto;
 }
 a {
   color: #274059;
