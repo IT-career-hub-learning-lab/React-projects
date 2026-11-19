@@ -1,0 +1,38 @@
+.vacancyCards {
+  margin-top: 126px;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.subContainer h3 {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+
+.subContainer > span {
+  font-size: 15px;
+  color: #8d8d8dcc;
+}
+
+.cards {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 188px;
+  row-gap: 40px;
+  margin-top: 44px;
+  margin-bottom: 92px;
+}
+
+.subContainer button {
+  align-self: center;
+  padding: 20px 50px;
+  background-color: #274059;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
